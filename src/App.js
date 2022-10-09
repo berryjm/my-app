@@ -1,5 +1,7 @@
 import './App.css';
 import bgwLogo from "./img/image 64295.png";
+import bgwFrame from "./img/Frame.svg";
+import bgwBG from "./img/BG.svg";
 
 function App() {
   return (
@@ -50,7 +52,10 @@ function App() {
         <item>4.5</item>
         <item>4.6</item>
         <item>4.7</item>
-        <item>4.8</item>
+        <item>{/* 4.8 */}
+            <img src={bgwBG} id='bgwBG' alt="BG"></img>
+            <img src={bgwFrame} id='bgwFrame' alt="Frame"></img>
+        </item>
         <item>4.9</item>
         <item>4.10</item>
         <item>4.11</item>
