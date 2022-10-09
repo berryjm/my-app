@@ -26,7 +26,7 @@ function App() {
         <item>1.10</item>
         <item>1.11</item>
         <item class='lb'>{/* 1.12 */}
-        <img src={leftBfly} id='lb' alt="Left Butterfly"></img>
+          <img src={leftBfly} id='lb' alt="Left Butterfly"></img>
         </item>
         <item>2.1</item>
         <item>2.2</item>
@@ -62,6 +62,7 @@ function App() {
         <item>{/* 4.8 */}
             <img src={bgwBG} id='bgwBG' alt="BG"></img>
             <img src={bgwFrame} id='bgwFrame' alt="Frame"></img>
+            <img src={bgwDesign} id='bgwDesign' alt="Design"></img>
         </item>
         <item>4.9</item>
         <item>4.10</item>
