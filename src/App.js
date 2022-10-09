@@ -9,6 +9,10 @@ import bgwModal from "./img/Modal.svg";
 import barbie from "./img/211 2.svg";
 import cones from "./img/cones.svg";
 import bgwPicFrame from "./img/762 2.svg";
+import shopIcon from "./img/1 56240.svg"
+import gamesIcon from "./img/1 56239.svg"
+import fashionIcon from "./img/1 56241.svg"
+import chatIcon from "./img/1 56242.svg"
 
 function App() {
   return (
@@ -78,7 +82,12 @@ function App() {
         </item>
         <item>4.10</item>
         <item>4.11</item>
-        <item>4.12</item>
+        <item>{/*4.12 */}
+            <img src={shopIcon} id='shopIcon' alt="shopIcon"></img>
+            <img src={gamesIcon} id='gamesIcon' alt="gamesIcon"></img>
+            <img src={fashionIcon} id='fashionIcon' alt="fashionIcon"></img>
+            <img src={chatIcon} id='chatIcon' alt="chatIcon"></img>
+        </item>
         <item>5.1</item>
         <item>5.2</item>
         <item>5.3</item>
@@ -89,7 +98,13 @@ function App() {
         <item>5.8</item>
         <item>5.9</item>
         <item>5.10</item>
-        <item>5.11</item>
+        <item>{/* 5.11 */}
+        <p id='shop'>Go shopping!</p>
+        <p id='games'>Play games!</p>
+        <p id='fashion'>Design fashions!</p>
+        <p id='chat'>Chat with friends!</p>
+        <p id='notice'>signing up and logging in is <br></br> coming soon!</p>
+        </item>
         <item>5.12</item>
         <item>6.1</item>
         <item>6.2</item>

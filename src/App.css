@@ -5,6 +5,17 @@
                             'embedded-opentype', and 'svg' */
 }
 
+@font-face {
+  font-family: 'NeutraBarbieDisplayBold';
+  src: url(./fonts/440_NeutraBarbie\ Display\ Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NeutraBarbieItalic';
+  src: url(./fonts/601_NeutraBarbie\ Text\ Demi.ttf) format('truetype');
+}
+
+
 div {
   font-family: 'NeutraBarbieDemi';
 }
@@ -12,11 +23,100 @@ div {
 h1 {
   color: white;
   font-weight: normal;
-  font-size: 2vw;
+  font-size: 2.5vw;
   white-space: nowrap;
-  right:280px;
+  right:257px;
+  top:208px;
   z-index: 8;
   position: absolute;
+}
+
+#shop {
+  color: #d55da5;
+  font-family: 'NeutraBarbieDisplayBold';
+  font-size: 1.4vw;
+  white-space: nowrap;
+  right:342px;
+  top:307px;
+  z-index: 8;
+  position: absolute;
+}
+
+#games {
+  color: #d55da5;
+  font-family: 'NeutraBarbieDisplayBold';
+  font-size: 1.4vw;
+  white-space: nowrap;
+  right:353px;
+  top:350px;
+  z-index: 8;
+  position: absolute;
+}
+
+#fashion {
+  color: #d55da5;
+  font-family: 'NeutraBarbieDisplayBold';
+  font-size: 1.4vw;
+  white-space: nowrap;
+  right:321px;
+  top:391px;
+  z-index: 8;
+  position: absolute;
+}
+
+#chat {
+  color: #d55da5;
+  font-family: 'NeutraBarbieDisplayBold';
+  font-size: 1.4vw;
+  white-space: nowrap;
+  right:309px;
+  top:433px;
+  z-index: 8;
+  position: absolute;
+}
+
+#notice {
+  color: #f0b5de;
+  font-family: 'NeutraBarbieItalic';
+  font-size: 1.3vw;
+  white-space: nowrap;
+  text-align: center;
+  right:257px;
+  top:470px;
+  z-index: 8;
+  position: absolute;
+}
+
+#shopIcon {
+  transform: scale(0.4, 0.4);
+  z-index: 9;
+  right:402px;
+  top:270px;
+  position:absolute;
+}
+
+#gamesIcon {
+  transform: scale(0.4, 0.4);
+  z-index: 9;
+  right:389px;
+  top:309px;
+  position:absolute;
+}
+
+#fashionIcon {
+  transform: scale(0.4, 0.4);
+  z-index: 9;
+  right:388px;
+  top:350px;
+  position:absolute;
+}
+
+#chatIcon {
+  transform: scale(0.4, 0.4);
+  z-index: 9;
+  right:381px;
+  top:391px;
+  position:absolute;
 }
 
 .Background {
@@ -85,8 +185,8 @@ item {
 #rb {
   transform: scale(0.3, 0.3);
   z-index: 5;
-  bottom: 35px;
-  left: 32px;
+  top: 5px;
+  right: 95px;
   position:relative;
 }
 
@@ -98,8 +198,8 @@ item {
 #lb {
   transform: scale(0.3, 0.3);
   z-index: 5;
-  bottom: 30px;
-  left: 62px;
+  bottom: 0px;
+  left: 150px;
   position:relative;
 }
 
@@ -150,7 +250,7 @@ item {
 #bgwPicFrame {
   transform: scale(0.4, 0.4);
   z-index: 7;
-  top: 65px;
+  top: 75px;
   position:relative;
 }
 
