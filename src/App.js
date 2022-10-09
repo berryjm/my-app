@@ -1,4 +1,5 @@
 import './App.css';
+import bgwLogo from "./img/image 64295.png";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <item>1.6</item>
         <item>1.7</item>
         <item>1.8</item>
-        <item>1.9</item>
+        <item> {/* 1.9 */}
+          <img src={bgwLogo} id='bgwLogo' alt="Barbie Girls Rewritten"></img>
+        </item>
         <item>1.10</item>
         <item>1.11</item>
         <item>1.12</item>
