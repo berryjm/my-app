@@ -69,6 +69,18 @@ item {
   position:relative;
 }
 
+.lb {
+  width: 100px;
+  height: 100px;
+}
+
+#lb {
+  transform: scale(0.3, 0.3);
+  z-index: 5;
+  bottom: 30px;
+  left: 62px;
+  position:relative;
+}
 
 #bgwLogo {
   transform: scale(0.3, 0.3);
