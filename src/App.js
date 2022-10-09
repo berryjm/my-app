@@ -2,6 +2,8 @@ import './App.css';
 import bgwLogo from "./img/image 64295.png";
 import bgwFrame from "./img/Frame.svg";
 import bgwBG from "./img/BG.svg";
+import bgwDesign from "./img/12 2.svg";
+import rightBfly from "./img/837 1.svg";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         <item>1.3</item>
         <item>1.4</item>
         <item>1.5</item>
-        <item>1.6</item>
+        <item class='rb'>{/* 1.6 */}
+          <img src={rightBfly} id='rb' alt="Right Butterfly"></img>
+        </item>
         <item>1.7</item>
         <item>1.8</item>
         <item> {/* 1.9 */}
