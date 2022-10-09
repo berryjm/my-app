@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'NeutraBarbieDemi';
+  src: url(./fonts/70_NeutraBarbie\ Text\ Demi.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+div {
+  font-family: 'NeutraBarbieDemi';
+}
+
+h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 2vw;
+  white-space: nowrap;
+  right:280px;
+  z-index: 8;
+  position: absolute;
+}
+
 .Background {
   background: url("./img/479 3.png") no-repeat center center fixed;
   background-size: cover;
@@ -82,10 +103,62 @@ item {
   position:relative;
 }
 
+.bgwModal {
+  width: 100px;
+  height: 100px;
+}
+
+#bgwModal {
+  transform: scale(0.4, 0.4);
+  z-index: 6;
+  top: 240px;
+  left: 100px;
+  position:relative;
+}
+
+.barbie {
+  width: 100px;
+  height: 100px;
+}
+
+#barbie {
+  transform: scale(0.35, 0.35);
+  z-index: 6;
+  top: 290px;
+  right: 140px;
+  position:relative;
+}
+
+.cones {
+  width: 100px;
+  height: 100px;
+}
+
+#cones {
+  transform: scale(0.35, 0.35);
+  z-index: 7;
+  top: 0px;
+  right: 200px;
+  position:relative;
+}
+
+.bgwPicFrame {
+  width: 100px;
+  height: 100px;
+}
+
+#bgwPicFrame {
+  transform: scale(0.4, 0.4);
+  z-index: 7;
+  top: 65px;
+  position:relative;
+}
+
+
 #bgwLogo {
-  transform: scale(0.3, 0.3);
+  transform: scale(0.35, 0.35);
   z-index: 4;
-  top: 10px;
+  top: 50px;
   position:relative;
 }
 

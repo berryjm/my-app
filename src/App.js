@@ -5,6 +5,10 @@ import bgwBG from "./img/BG.svg";
 import bgwDesign from "./img/12 2.svg";
 import rightBfly from "./img/837 1.svg";
 import leftBfly from "./img/837 2.svg";
+import bgwModal from "./img/Modal.svg";
+import barbie from "./img/211 2.svg";
+import cones from "./img/cones.svg";
+import bgwPicFrame from "./img/762 2.svg";
 
 function App() {
   return (
@@ -33,12 +37,17 @@ function App() {
         <item>2.3</item>
         <item>2.4</item>
         <item>2.5</item>
-        <item>2.6</item>
+        <item class='barbie'>{/* 2.6 */}
+          <img src={barbie} id='barbie' alt="barbie"></img>
+        </item>
         <item>2.7</item>
         <item>2.8</item>
         <item>2.9</item>
         <item>2.10</item>
-        <item>2.11</item>
+        <item class='bgwModal'>{/* 2..11 */} 
+          <img src={bgwModal} id='bgwModal' alt="Modal"></img>
+          <h1>Join The Fun!</h1>
+        </item>
         <item>2.12</item>
         <item>3.1</item>
         <item>3.2</item>
@@ -64,7 +73,9 @@ function App() {
             <img src={bgwFrame} id='bgwFrame' alt="Frame"></img>
             <img src={bgwDesign} id='bgwDesign' alt="Design"></img>
         </item>
-        <item>4.9</item>
+        <item class='bgwPicFrame'>{/* 4.9 */}
+        <img src={bgwPicFrame} id='bgwPicFrame' alt="PicFrame"></img>
+        </item>
         <item>4.10</item>
         <item>4.11</item>
         <item>4.12</item>
@@ -131,7 +142,9 @@ function App() {
         <item>10.1</item>
         <item>10.2</item>
         <item>10.3</item>
-        <item>10.4</item>
+        <item class='cones'>{/* 10.4 */} 
+          <img src={cones} id='cones' alt="cones"></img>
+        </item>
         <item>10.5</item>
         <item>10.6</item>
         <item>10.7</item>
