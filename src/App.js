@@ -51,6 +51,16 @@ function App() {
         <item class='bgwModal'>{/* 2..11 */} 
           <img src={bgwModal} id='bgwModal' alt="Modal"></img>
           <h1>Join The Fun!</h1>
+          <img src={shopIcon} id='shopIcon' alt="shopIcon"></img>
+          <img src={gamesIcon} id='gamesIcon' alt="gamesIcon"></img>
+          <img src={fashionIcon} id='fashionIcon' alt="fashionIcon"></img>
+          <img src={chatIcon} id='chatIcon' alt="chatIcon"></img>
+          <p id='shop'>Go shopping!</p>
+          <p id='games'>Play games!</p>
+          <p id='fashion'>Design fashions!</p>
+          <p id='chat'>Chat with friends!</p>
+          <p id='notice'>signing up and logging in is <br></br> coming soon!</p>
+          <button className='button'>play as guest!</button>
         </item>
         <item>2.12</item>
         <item>3.1</item>
@@ -83,10 +93,6 @@ function App() {
         <item>4.10</item>
         <item>4.11</item>
         <item>{/*4.12 */}
-            <img src={shopIcon} id='shopIcon' alt="shopIcon"></img>
-            <img src={gamesIcon} id='gamesIcon' alt="gamesIcon"></img>
-            <img src={fashionIcon} id='fashionIcon' alt="fashionIcon"></img>
-            <img src={chatIcon} id='chatIcon' alt="chatIcon"></img>
         </item>
         <item>5.1</item>
         <item>5.2</item>
@@ -99,11 +105,6 @@ function App() {
         <item>5.9</item>
         <item>5.10</item>
         <item>{/* 5.11 */}
-        <p id='shop'>Go shopping!</p>
-        <p id='games'>Play games!</p>
-        <p id='fashion'>Design fashions!</p>
-        <p id='chat'>Chat with friends!</p>
-        <p id='notice'>signing up and logging in is <br></br> coming soon!</p>
         </item>
         <item>5.12</item>
         <item>6.1</item>

@@ -25,10 +25,49 @@ h1 {
   font-weight: normal;
   font-size: 2.5vw;
   white-space: nowrap;
-  right:257px;
-  top:208px;
+  right:320px;
+  top:220px;
   z-index: 8;
   position: absolute;
+}
+
+button {
+  z-index: 10;
+}
+
+.button {
+  background-image: url(img/785.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-color: transparent;
+  white-space: nowrap;
+  transition-duration: 0.02s;
+  /* put the height and width of your image here */
+  height: 80px;
+  width: 270px;
+  border: none;
+  right:310px;
+  top: 670px;
+  position: absolute;
+  font-family: 'NeutraBarbieDisplayBold';
+  font-size: 4vh;
+  color:white;
+}
+
+.button:hover {
+  background-image: url(img/786.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-color: transparent;
+  white-space: nowrap;
+  /* put the height and width of your image here */
+  height: 80px;
+  width: 250px;
+  border: none;
 }
 
 #shop {
