@@ -182,17 +182,21 @@ function App() {
         <item>11.5</item>
         <item>11.6</item>
         <item class='rules'> {/* 11.7 */} 
-            <img src={rulesHL} id='rulesHL' alt="rulesBG"></img>
+            <a id='rulesLink' href="https://www.flowcode.com/page/barbiegirlsrewritten">
+              <img src={rulesHL} id='rulesHL' alt="rulesBG"></img>
+            </a>
             <p id='rulestxt'>rules + legal</p>
             <img src={rulesFG} id='rulesFG' alt="rulesFG"></img>
             <img src={rulesBG} id='rulesBG' alt="rulesBG"></img>
         </item>
         <item>11.8</item>
         <item class='socials'> {/* 11.9 */}
-        <img src={socialsHL} id='socialsHL' alt="socialsBG"></img>
-            <p id='socialstxt'>socials</p>
-            <img src={socialsFG} id='socialsFG' alt="socialsFG"></img>
-            <img src={socialsBG} id='socialsBG' alt="socialsBG"></img>
+          <a id='socialsLink' href="https://www.flowcode.com/page/barbiegirlsrewritten">
+          <img src={socialsHL} id='socialsHL' alt="socialsBG"></img>
+          </a>
+          <p id='socialstxt'>socials</p>
+          <img src={socialsFG} id='socialsFG' alt="socialsFG"></img>
+          <img src={socialsBG} id='socialsBG' alt="socialsBG"></img>
         </item>
         <item>11.10</item>
         <item>11.11</item>

@@ -283,7 +283,7 @@ item {
   position:absolute;
 }
 
-#rulesHL:hover~#rulesFG{
+#rulesLink:hover~#rulesFG{
   display: none;
 }
 
@@ -300,7 +300,7 @@ item {
   position:absolute;
 }
 
-#socialsHL:hover~#socialsFG{
+#socialsLink:hover~#socialsFG{
   display: none;
 }
 
