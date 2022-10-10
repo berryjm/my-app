@@ -56,17 +56,17 @@ function App() {
         <item>2.10</item>
         <item class='bgwModal'>{/* 2..11 */} 
           <img src={bgwModal} id='bgwModal' alt="Modal"></img>
-          <h1>Join The Fun!</h1>
-          <img src={shopIcon} id='shopIcon' alt="shopIcon"></img>
-          <img src={gamesIcon} id='gamesIcon' alt="gamesIcon"></img>
-          <img src={fashionIcon} id='fashionIcon' alt="fashionIcon"></img>
-          <img src={chatIcon} id='chatIcon' alt="chatIcon"></img>
-          <p id='shop'>Go shopping!</p>
-          <p id='games'>Play games!</p>
-          <p id='fashion'>Design fashions!</p>
-          <p id='chat'>Chat with friends!</p>
-          <p id='notice'>signing up and logging in is <br></br> coming soon!</p>
-          <button className='button'>play as guest!</button>
+            <h1>Join The Fun!</h1>
+            <img src={shopIcon} id='shopIcon' alt="shopIcon"></img>
+            <img src={gamesIcon} id='gamesIcon' alt="gamesIcon"></img>
+            <img src={fashionIcon} id='fashionIcon' alt="fashionIcon"></img>
+            <img src={chatIcon} id='chatIcon' alt="chatIcon"></img>
+            <p id='shop'>Go shopping!</p>
+            <p id='games'>Play games!</p>
+            <p id='fashion'>Design fashions!</p>
+            <p id='chat'>Chat with friends!</p>
+            <p id='notice'>signing up and logging in is <br></br> coming soon!</p>
+            <button className='button'>play as guest!</button>
         </item>
         <item>2.12</item>
         <item>3.1</item>
@@ -88,7 +88,7 @@ function App() {
         <item>4.5</item>
         <item>4.6</item>
         <item>4.7</item>
-        <item>{/* 4.8 */}
+        <item class='base'>{/* 4.8 */}
             <img src={bgwBG} id='bgwBG' alt="BG"></img>
             <img src={bgwFrame} id='bgwFrame' alt="Frame"></img>
             <img src={bgwDesign} id='bgwDesign' alt="Design"></img>
@@ -225,3 +225,4 @@ function App() {
 }
 
 export default App;
+
