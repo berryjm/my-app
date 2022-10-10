@@ -95,6 +95,12 @@ function App() {
         </item>
         <item class='bgwPicFrame'>{/* 4.9 */}
         <img src={bgwPicFrame} id='bgwPicFrame' alt="PicFrame"></img>
+        <iframe
+          src="https://www.youtube.com/embed/gdZLi9oWNZg"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+          title="video" />{" "}
         </item>
         <item>4.10</item>
         <item>4.11</item>
