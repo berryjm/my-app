@@ -36,7 +36,7 @@ button {
 }
 
 .button {
-  background-image: url(img/785.svg);
+  background-image: url(img/785.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -44,29 +44,24 @@ button {
   background-color: transparent;
   white-space: nowrap;
   transition-duration: 0.02s;
-  /* put the height and width of your image here */
-  height: 80px;
-  width: 270px;
   border: none;
   right:310px;
   top: 670px;
   position: absolute;
+  height: 80px;
+  width: 270px;
   font-family: 'NeutraBarbieDisplayBold';
   font-size: 4vh;
   color:white;
 }
-
 .button:hover {
-  background-image: url(img/786.svg);
+  background-image: url(img/786.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   outline: none;
   background-color: transparent;
   white-space: nowrap;
-  /* put the height and width of your image here */
-  height: 80px;
-  width: 250px;
   border: none;
 }
 
@@ -255,6 +250,76 @@ item {
   position:relative;
 }
 
+.rules {
+  position:relative;
+}
+
+#rulestxt{
+  z-index: 13;
+  color: white;
+}
+
+#rulesFG {
+  z-index: 12;
+  top: 0px;
+  left: -250px;
+  transform: scale(0.4, 0.4);
+  position:absolute;
+}
+
+#rulesBG {
+  z-index: 11;
+  top: 0px;
+  left: -250px;
+  transform: scale(0.4, 0.4);
+  position:absolute;
+}
+
+#rulesHL{
+  z-index: 14;
+  top: 0px;
+  left: -250px;
+  transform: scale(0.4, 0.4);
+  position:absolute;
+}
+
+#rulesHL:hover~#rulesFG{
+  display: none;
+}
+
+#socialstxt{
+  z-index: 13;
+  color: white;
+}
+
+#socialsFG {
+  z-index: 12;
+  top: 750px;
+  right: 0px;
+  transform: scale(0.4, 0.4);
+  position:absolute;
+}
+
+#socialsHL:hover~#socialsFG{
+  display: none;
+}
+
+#socialsBG {
+  z-index: 11;
+  top: 750px;
+  right: 0px;
+  transform: scale(0.4, 0.4);
+  position:absolute;
+}
+
+#socialsHL{
+  z-index: 14;
+  top: 750px;
+  right: 0px;
+  transform: scale(0.4, 0.4);
+  position:absolute;
+}
+
 .barbie {
   width: 100px;
   height: 100px;
@@ -292,7 +357,6 @@ item {
   top: 75px;
   position:relative;
 }
-
 
 #bgwLogo {
   transform: scale(0.35, 0.35);

@@ -13,6 +13,12 @@ import shopIcon from "./img/1 56240.svg"
 import gamesIcon from "./img/1 56239.svg"
 import fashionIcon from "./img/1 56241.svg"
 import chatIcon from "./img/1 56242.svg"
+import rulesBG from "./img/997 1.png"
+import rulesFG from "./img/998 1.png"
+import rulesHL from "./img/999 1.png"
+import socialsBG from "./img/991 1.png"
+import socialsFG from "./img/992 1.png"
+import socialsHL from "./img/993 1.png"
 
 function App() {
   return (
@@ -175,9 +181,19 @@ function App() {
         <item>11.4</item>
         <item>11.5</item>
         <item>11.6</item>
-        <item>11.7</item>
+        <item class='rules'> {/* 11.7 */} 
+            <img src={rulesHL} id='rulesHL' alt="rulesBG"></img>
+            <p id='rulestxt'>rules + legal</p>
+            <img src={rulesFG} id='rulesFG' alt="rulesFG"></img>
+            <img src={rulesBG} id='rulesBG' alt="rulesBG"></img>
+        </item>
         <item>11.8</item>
-        <item>11.9</item>
+        <item class='socials'> {/* 11.9 */}
+        <img src={socialsHL} id='socialsHL' alt="socialsBG"></img>
+            <p id='socialstxt'>socials</p>
+            <img src={socialsFG} id='socialsFG' alt="socialsFG"></img>
+            <img src={socialsBG} id='socialsBG' alt="socialsBG"></img>
+        </item>
         <item>11.10</item>
         <item>11.11</item>
         <item>11.12</item>
