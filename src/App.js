@@ -94,13 +94,13 @@ function App() {
             <img src={bgrDesign} id='bgr-design' alt="design"></img>
         </item>
         <item>{/* 4.9 */}
-        <img src={bgrPicFrame} id='bgr-picframe' alt="picture frame"></img>
-        <iframe
-          src="https://www.youtube.com/embed/fHAynouG3pI"
-          frameborder="0"
-          allow="autoplay; encrypted-media"
-          allowfullscreen
-          title="video" />{" "}
+          <img src={bgrPicFrame} id='bgr-picframe' alt="video frame"></img>
+          <iframe
+            src="https://www.youtube.com/embed/fHAynouG3pI"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video" />{" "}
         </item>
         <item>{/* 4.10 */}</item>
         <item>{/* 4.11 */}</item>
