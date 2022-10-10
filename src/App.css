@@ -264,14 +264,14 @@ item {
   z-index: 13;
   color: white;
   top: 805px;
-  right: 645px;
+  right: 625px;
   position:absolute;
 }
 
 #rulesFG {
   z-index: 12;
   top: 780px;
-  right: 395px;
+  right: 375px;
   transform: scale(0.4, 0.4);
   position:absolute;
 }
@@ -279,7 +279,7 @@ item {
 #rulesBG {
   z-index: 11;
   top: 765px;
-  right: 380px;
+  right: 360px;
   transform: scale(0.4, 0.4);
   position:absolute;
 }
@@ -287,7 +287,7 @@ item {
 #rulesHL{
   z-index: 14;
   top: 782px;
-  right: 405px;
+  right: 385px;
   transform: scale(0.4, 0.4);
   position:absolute;
 }
