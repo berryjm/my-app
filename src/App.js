@@ -24,7 +24,7 @@ function App() {
   return (
     <div class="Background">
       <div class="container">
-        <item>1.1</item>
+        <item>{/* 1.1 */}</item>
         <item>1.2</item>
         <item>1.3</item>
         <item>1.4</item>

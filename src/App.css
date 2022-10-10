@@ -24,7 +24,7 @@ div {
 h1 {
   color: white;
   font-weight: normal;
-  font-size: 2.5vw;
+  font-size: 45px;
   white-space: nowrap;
   right:355px;
   top:200px;
@@ -61,7 +61,7 @@ iframe {
   height: 80px;
   width: 270px;
   font-family: 'NeutraBarbieDisplayBold';
-  font-size: 4vh;
+  font-size: 40px;
   color:white;
 }
 .button:hover {
@@ -78,7 +78,7 @@ iframe {
 #shop {
   color: #d55da5;
   font-family: 'NeutraBarbieDisplayBold';
-  font-size: 1.4vw;
+  font-size: 25px;
   white-space: nowrap;
   right:447px;
   top:300px;
@@ -89,7 +89,7 @@ iframe {
 #games {
   color: #d55da5;
   font-family: 'NeutraBarbieDisplayBold';
-  font-size: 1.4vw;
+  font-size: 25px;
   white-space: nowrap;
   right:459px;
   top:345px;
@@ -100,7 +100,7 @@ iframe {
 #fashion {
   color: #d55da5;
   font-family: 'NeutraBarbieDisplayBold';
-  font-size: 1.4vw;
+  font-size: 25px;
   white-space: nowrap;
   right:423px;
   top:390px;
@@ -111,7 +111,7 @@ iframe {
 #chat {
   color: #d55da5;
   font-family: 'NeutraBarbieDisplayBold';
-  font-size: 1.4vw;
+  font-size: 25px;
   white-space: nowrap;
   right:410px;
   top:435px;
@@ -122,7 +122,7 @@ iframe {
 #notice {
   color: #f0b5de;
   font-family: 'NeutraBarbieItalic';
-  font-size: 1.3vw;
+  font-size: 23px;
   white-space: nowrap;
   text-align: center;
   right:357px;
@@ -229,8 +229,8 @@ item {
 #rb {
   transform: scale(0.3, 0.3);
   z-index: 5;
-  top: -25px;
-  left: 135px;
+  top: -40px;
+  right: 1243px;
   position:fixed;
 }
 
@@ -366,11 +366,14 @@ item {
   right:260px;
 }
 
+
 #bgwLogo {
   transform: scale(0.35, 0.35);
   z-index: 4;
-  bottom: 225px;
+  top: -400px;
+  right: 100px;
   position:absolute;
+  
 }
 
 #bgwBG {
