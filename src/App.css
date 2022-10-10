@@ -18,6 +18,7 @@
 
 div {
   font-family: 'NeutraBarbieDemi';
+  color:transparent;
 }
 
 h1 {
@@ -217,7 +218,7 @@ item {
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid transparent;
 }
 
 .rb {
@@ -259,38 +260,34 @@ item {
   position: absolute;
 }
 
-.rules {
-  position:relative;
-}
-
 #rulestxt{
   z-index: 13;
   color: white;
-  bottom: 60px;
-  left: 1040px;
-  position:fixed;
+  top: 805px;
+  right: 645px;
+  position:absolute;
 }
 
 #rulesFG {
   z-index: 12;
-  top: -100px;
-  left: 341px;
+  top: 780px;
+  right: 395px;
   transform: scale(0.4, 0.4);
   position:absolute;
 }
 
 #rulesBG {
   z-index: 11;
-  top:-115px;
-  left: 325px;
+  top: 765px;
+  right: 380px;
   transform: scale(0.4, 0.4);
   position:absolute;
 }
 
 #rulesHL{
   z-index: 14;
-  bottom: 9px;
-  left: 350px;
+  top: 782px;
+  right: 405px;
   transform: scale(0.4, 0.4);
   position:absolute;
 }
@@ -361,24 +358,19 @@ item {
   position:absolute;
 }
 
-.bgwPicFrame {
-  width: 100px;
-  height: 100px;
-}
-
 #bgwPicFrame {
   transform: scale(0.4, 0.4);
   z-index: 7;
-  top: -55px;
-  left: 105px;
   position:absolute;
+  top:-55px;
+  right:260px;
 }
 
 #bgwLogo {
   transform: scale(0.35, 0.35);
   z-index: 4;
-  top: -400px;
-  position:fixed;
+  bottom: 225px;
+  position:absolute;
 }
 
 #bgwBG {

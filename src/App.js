@@ -96,7 +96,7 @@ function App() {
         <item class='bgwPicFrame'>{/* 4.9 */}
         <img src={bgwPicFrame} id='bgwPicFrame' alt="PicFrame"></img>
         <iframe
-          src="https://www.youtube.com/embed/gdZLi9oWNZg"
+          src="https://www.youtube.com/embed/fHAynouG3pI"
           frameborder="0"
           allow="autoplay; encrypted-media"
           allowfullscreen
@@ -188,7 +188,7 @@ function App() {
         <item>11.5</item>
         <item>11.6</item>
         <item class='rules'> {/* 11.7 */} 
-            <a id='rulesLink' href="https://www.flowcode.com/page/barbiegirlsrewritten">
+            <a id='rulesLink' href="https://docs.google.com/document/d/1_udlvymwqoRvhfn8ZbxRhMGKuMd1O-5M01yA9ff9goQ/edit#heading=h.s1azp5fxcxyk">
               <img src={rulesHL} id='rulesHL' alt="rulesBG"></img>
             </a>
             <p id='rulestxt'>rules + legal</p>
