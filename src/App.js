@@ -10,7 +10,7 @@ class App extends Component {
       <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="nav" element={<Nav />} />
+        <Route path="nav" element={<Nav />} />=
       </Routes>
     </Router>
    );

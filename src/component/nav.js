@@ -9,6 +9,14 @@ const unityContext = new UnityContext({
 });
 
 function Nav () {  
-    return <Unity unityContext={unityContext} style={{ width: 800, height: 600 }}/>;
+    return <>
+    <div class="background">
+        <div class="container">
+            <div id="unity">
+            <Unity unityContext={unityContext} style={{ width: 800, height: 600 }}/>
+            </div>
+        </div>
+    </div>
+    </>;
 }
 export default Nav;
