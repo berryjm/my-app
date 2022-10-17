@@ -186,7 +186,7 @@ function Home (){
       <item>{/* 11.5 */}</item>
       <item>{/* 11.6 */}</item>
       <item class='rules'> {/* 11.7 */} 
-          <a id='rules-link' href="https://docs.google.com/document/d/1_udlvymwqoRvhfn8ZbxRhMGKuMd1O-5M01yA9ff9goQ/edit#heading=h.s1azp5fxcxyk">
+          <a id='rules-link' target="_blank" href="https://docs.google.com/document/d/1_udlvymwqoRvhfn8ZbxRhMGKuMd1O-5M01yA9ff9goQ/edit#heading=h.s1azp5fxcxyk">
             <img src={rulesHL} id='rules-hl' alt="rules highlight"></img>
           </a>
           <p id='rulestxt'>rules + legal</p>
@@ -195,7 +195,7 @@ function Home (){
       </item>
       <item>{/* 11.8 */}</item>
       <item class='socials'> {/* 11.9 */}
-        <a id='socials-link' href="https://www.flowcode.com/page/barbiegirlsrewritten">
+        <a id='socials-link' target="_blank" href="https://www.flowcode.com/page/barbiegirlsrewritten">
         <img src={socialsHL} id='socials-hl' alt="socials highlight"></img>
         </a>
         <p id='socialstxt'>socials</p>

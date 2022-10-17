@@ -2,10 +2,10 @@ import React from "react";
 import Unity, { UnityContext } from "react-unity-webgl"
   
 const unityContext = new UnityContext({
-    loaderUrl: "build/2DPlatformer.loader.js",
-    dataUrl: "build/2DPlatformer.data",
-    frameworkUrl: "build/2DPlatformer.framework.js",
-    codeUrl: "build/2DPlatformer.wasm"
+    loaderUrl: "build/BGRMain.loader.js",
+    dataUrl: "build/BGRMain.data",
+    frameworkUrl: "build/BGRMain.framework.js",
+    codeUrl: "build/BGRMain.wasm"
 });
 
 function Nav () {  
@@ -13,7 +13,7 @@ function Nav () {
     <div class="background">
         <div class="container">
             <div id="unity">
-            <Unity unityContext={unityContext} style={{ width: 800, height: 600 }}/>
+            <Unity unityContext={unityContext} style={{ width: 1080, height: 1080 }}/>
             </div>
         </div>
     </div>
