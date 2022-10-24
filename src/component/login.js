@@ -93,7 +93,7 @@ const Login = () => {
                 Need an Account?<br />
                 <span className="line">
                     {/*put router link here*/}
-                    <a href="#">Sign Up</a>
+                    <a href="/register">Sign Up</a>
                 </span>
             </p>
         </section>
