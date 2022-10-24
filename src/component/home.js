@@ -66,7 +66,7 @@ function Home (){
           <p id='fashion'>Design fashions!</p>
           <p id='chat'>Chat with friends!</p>
           <p id='notice'>signing up and logging in is <br></br> coming soon!</p>
-          <Link to="/login"><button className='button'>play as guest!</button></Link>
+          <Link to="/register"><button className='button'>play as guest!</button></Link>
       </item>
       <item>{/* 2.12 */}</item>
       <item>{/* 3.1 */}</item>
