@@ -400,3 +400,20 @@ item:nth-child(44) {
   z-index: 7;
   position:fixed;
 }
+
+#logout-button{
+  z-index: 8;
+  top: 782px;
+  right: 150px;
+  transform: scale(1.5, 1.5);
+  position:fixed;
+}
+
+#welcome{
+  z-index: 8;
+  top: 782px;
+  left: 50px;
+  color: white;
+  font-weight: normal;
+  font-size: 45px;
+}

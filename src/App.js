@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './component/home';
 import Nav from './component/nav';
 import Signin from './component/signin';
+import Protected from './component/protected';
 import { AuthContextProvider } from './context/AuthContext';
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
       <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="nav" element={<Nav />} />
+        <Route path="nav" element={<Protected><Nav /></Protected>} />
         <Route path="signin" element={<Signin />} />
       </Routes>
     </Router>
